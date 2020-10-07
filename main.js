@@ -49,8 +49,7 @@ function poseSelected(id) {
 
 function getPose() {
   getPosePage()
-    .then((pose) => {
-      console.log(pose);
+    .then((pose) => {    
       document.querySelector(
         "#poseTitle"
       ).innerHTML = `<h2 class="poseCount">${pose.sanskrit_name} (${pose.english_name})</h2>`;

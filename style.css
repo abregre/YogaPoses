@@ -160,6 +160,7 @@ footer {
   
 }
 .pose-container{
+   max-width: 1300px;
     width: 80%;
     display: flex;
     flex-direction: column;

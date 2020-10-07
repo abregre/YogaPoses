@@ -1,0 +1,222 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+:root {
+  --clr-primary: #4a6670;
+  --clr-secondary: #a9fbd7;
+  --clr-light: #fff;
+  --clr-dark: #131313;
+
+  --bor-40: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+li {
+  margin-bottom: 1rem;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--clr-secondary);
+  color: var(--clr-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: calc(100% - 180px);
+}
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: var(--clr-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-primary);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#searchForm {
+  background-color: var(--clr-light);
+  color: var(--clr-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+#searchForm input {
+  color: var(--clr-primary);
+  width: 12rem;
+  border: 1px solid var(--clr-primary);
+  border-radius: var(--bor-40);
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+#searchForm button {
+  margin: 0.75rem;
+  width: 7rem;
+  padding: 0.6rem;
+  background-color: var(--clr-secondary);
+  color: var(--clr-primary);
+  border: 1px solid var(--clr-secondary);
+  border-radius: var(--bor-40);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+#searchForm button:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
+  border-color: var(--clr-primary);
+  transition: all 0.3s ease-in-out;
+}
+
+#poses {
+  width: 90%;
+  max-width: 1200px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: var(--clr-primary);
+  border: 1px solid var(--clr-primary);
+  margin: 1rem 0;
+  border-radius: var(--bor-40);
+  padding: 0.5rem;
+  justify-content: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-title {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.englishName {
+  color: var(--clr-primary);
+  text-align: center;
+}
+#poseTitle{
+    font-size: 1.5rem;
+}
+#categories {
+  font-size: 1.5rem;
+  margin: 0.45rem 0 0 0;
+  font-weight: 700;
+  color: var(--clr-primary);
+}
+#pose-details li{
+    font-style: italic;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    font-size: 1.3rem;
+    color: var(--clr-primary);
+}
+#pose-details p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.poseCount {
+  color: var(--clr-primary);
+  text-align: center;
+  
+}
+.pose-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#pose-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    #searchForm h3 {
+        font-size: 2rem;
+    }
+    #searchForm input {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    #searchForm button {
+        width: 10rem;
+        font-size: 1.5rem;
+    }
+    #poses {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-gap: 1.5rem;
+    }
+    .pose-container{
+   
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    #pose-img{
+        grid-column: 1;
+    
+    }
+    #pose-details{
+    grid-column: 2;
+    }
+    
+}
+@media(min-width:970px){
+    .card-title {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        
+      }
+}
+@media (min-width:1200px){
+    .card-title {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        
+      }
+}

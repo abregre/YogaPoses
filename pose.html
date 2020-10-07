@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yogi</title>
+  </head>
+  <body>
+    <header>
+      <a href="." class="logo"><img src="lotus.png" width="80px" /> </a>
+    </header>
+    <main>
+      <div class="container">
+        <form id="searchForm">
+          <h3>Search for pose</h3>
+          <input type="text" id="searchText" placeholder="Search Pose" />
+          <button type="submit">Search</button>
+        </form>
+      </div>      
+      <div id="poseTitle"></div>
+        <div class="pose-container">
+          <div id="pose-img"></div>
+          <div id="pose-details"></div>
+        </div>
+    
+    </main>
+    <footer id="footer">
+      <p>
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        With
+        <a href="https://github.com/abregre">❤️</a>
+        by DigitalUrban
+      </p>
+    </footer>
+    <script src="main.js"></script>
+    <script>getPose()</script>
+  </body>
+</html>

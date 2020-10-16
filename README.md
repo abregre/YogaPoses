@@ -1,5 +1,8 @@
 <h2>Yogi</h2><br><br>
 
+Deployment : https://abregre.github.io/YogaPoses/
+<br>
+
 <strong>Description</strong><br>
 
 A web app that you can search for Yoga poses using their english names<br>
@@ -24,6 +27,8 @@ API Used : https://lightning-yoga-api.herokuapp.com/ <br>
 <strong>Stage</strong><br>
 
 Finished responsive Layout and connection to the API.
+
+Work in Progress
 
 
 

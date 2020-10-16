@@ -1,17 +1,17 @@
 <h2>Yogi</h2><br><br>
 
-<strong>Description</strong><br><br>
+<strong>Description</strong><br>
 
-A web app that you can search for Yoga poses using their
+A web app that you can search for Yoga poses using their english names<br>
 
-<strong>Vision</strong><br><br>
+<strong>Vision</strong><br>
   
 <ul>
   <li>Search with sanskrit name</li> 
 </ul>
  
 
-<strong>Stack</strong><br><br>
+<strong>Stack</strong><br>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -19,9 +19,9 @@ A web app that you can search for Yoga poses using their
   <li>API</li>
 </ul>
  
-Using https://lightning-yoga-api.herokuapp.com/ API for data.
+API Used : https://lightning-yoga-api.herokuapp.com/ <br>
 
-<strong>Stage</strong><br><br>
+<strong>Stage</strong><br>
 
 Finished responsive Layout and connection to the API.
 

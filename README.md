@@ -2,7 +2,7 @@
 
 Deployment : https://abregre.github.io/YogaPoses/
 <br>
-!Disclaimer : Give some seconds for the search as the called API is hosted on heroku and needs to wake up
+Disclaimer : Give some seconds for the search as the called API is hosted on heroku and needs to wake up
 
 <br>
 

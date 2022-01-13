@@ -30,7 +30,7 @@ document.querySelector("#searchForm").addEventListener("submit", (e) => {
         poses.forEach((pose) => {
           output += ` <div class="card">
                         <img src="${pose.img_url}">
-                        <a onclick="poseSelected('${pose.id}')" href="#" class="card-title">${pose.sanskrit_name}</a>                       
+                        <a onclick="poseSelected('${pose.id}')" href="#" class="card-title">${pose.sanskrit_name}</a>
                         <p class="englishName">English name: ${pose.english_name}</p>
                         </div>
                         `;

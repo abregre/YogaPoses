@@ -95,6 +95,7 @@ footer {
   border-radius: var(--bor-40);
   font-size: 1.2rem;
   font-weight: 700;
+  cursor: pointer;
 }
 #searchForm button:hover {
   background-color: var(--clr-primary);
@@ -192,7 +193,7 @@ footer {
         grid-gap: 1.5rem;
     }
     .pose-container{
-   
+     max-width: 1300px;
         width: 90%;
         display: grid;
         grid-template-columns: 1fr 1fr;
